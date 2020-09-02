@@ -3,7 +3,7 @@
 ## Setup
 
 To setup the application
-
+<!-- https://spaced-repitition-rebecca-seyi.vercel.app -->
 1. Fork and clone the project to your machine
 2. `npm install`. This will also install the application *Cypress.io* for running browser integration tests
 
