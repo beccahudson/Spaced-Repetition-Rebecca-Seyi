@@ -1,0 +1,120 @@
+h1 {
+    margin-left: 25px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    border-bottom: 3px solid rgb(220, 220, 220);
+  }
+  
+  .logo {
+    font-size: 50px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+  }
+  
+  .logo:hover {
+    color: rgb(83, 83, 212);
+  }
+  
+  .navLinks {
+    margin: 27px;
+  }
+  
+  .userName {
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .links {
+    margin: 15px;
+    font-size: 22px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(210, 64, 64);
+  }
+  
+  .links:hover {
+    list-style-type: none;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(210, 64, 64);
+  }
+  
+  .linksLogin {
+    text-decoration: none;
+  }
+  
+  .linksLogin:before {
+    content: 'Login';
+    margin: 15px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(210, 64, 64);
+  }
+  
+  .linksLogin:hover:before {
+    content: 'Connexion';
+    color: #413f78;
+  }
+  
+  .linksSignup {
+    text-decoration: none;
+  }
+  
+  .linksSignup:before {
+    content: 'Sign Up';
+    margin: 15px;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(210, 64, 64);
+  }
+  
+  .linksSignup:hover:before {
+    content: "S'inscrire";
+    color: #413f78;
+  }
+  
+  @media (min-width: 600px) {
+    .linksLogin {
+      margin-top: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(249, 249, 249);
+      border-bottom: 3px solid rgb(220, 220, 220);
+      padding-right: 2%;
+    }
+    .logo {
+      margin: 10px;
+      font-size: 130%;
+      list-style-type: none;
+      text-decoration: none;
+    }
+    .navLinks {
+      display: flex;
+      justify-content: center;
+      margin: 0px auto;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      font-size: 22px;
+      color: rgb(210, 64, 64);
+      margin: 5px;
+      border-radius: 2px;
+      padding: 1px;
+    }
+  }
+  
