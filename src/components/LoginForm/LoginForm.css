@@ -1,0 +1,132 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 5%;
+}
+
+@media (min-width: 600px) {
+  .main-container {
+    flex-direction: row;
+  }
+}
+
+.left-container-login {
+  flex: 0 1 50%;
+  background: rgba(255, 255, 255);
+  z-index: 1;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .left-container-login {
+    flex: 0 1 50%;
+    height: 56vh;
+    width: 100%;
+    min-width: 30%;
+    justify-content: flex-end;
+  }
+}
+
+.paris {
+  width: 150px;
+  fill: white;
+}
+
+.right-container-login {
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 100%;
+  min-width: 30%;
+  padding: 0.5em;
+  background: rgba(255, 255, 255);
+}
+
+@media (min-width: 600px) {
+  .right-container-login {
+    padding-top: 10%;
+    flex: 0 1 50%;
+    height: 56vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-content: right;
+    height: 60vh;
+    max-width: 50%;
+    min-width: 30%;
+    flex-wrap: wrap;
+    align-items: right; */
+  }
+}
+
+.bikecat {
+  width: 80%;
+  margin-top: 22%;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .bikecat {
+    width: 110%;
+    margin-top: 12%;
+    position: relative;
+  }
+}
+
+.loginWrap {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 50%;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.loginButtonLogin {
+  width: 60%;
+}
+
+@media (min-width: 600px) {
+  .loginButtonLogin {
+    width: 30%;
+  }
+}
+
+.signup {
+  background-color: white;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #413f78;
+  border: 2px solid rgb(205, 205, 205);
+  font-size: 18px;
+  color: white;
+  padding: 5px 5px;
+  width: 60%;
+  margin: 4px auto;
+}
+
+.signup:hover {
+  background-color: rgb(205, 52, 52);
+  color: white;
+  -webkit-box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+  -moz-box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+  box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+}
+
+@media (min-width: 600px) {
+  .signup {
+    background-color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #413f78;
+    border: 2px solid rgb(205, 205, 205);
+    font-size: 18px;
+    color: white;
+    padding: 5px 5px;
+    width: 30%;
+    margin: 4px auto;
+  }
+}

@@ -1,0 +1,30 @@
+.Button {
+    background-color: #413f78;
+    color: white;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    padding: 6px;
+    border-radius: 3px;
+    width: 30%;
+    margin: 2px auto;
+    flex-wrap: wrap;
+  }
+  
+  .Button:focus {
+    outline-color: rgb(205, 52, 52);
+    background-color: rgb(231, 231, 231, 0.4);
+    color: rgb(60, 72, 198);
+    outline-color: coral;
+    outline: solid;
+  }
+  
+  .Button:hover {
+    color: rgb(60, 72, 198);
+    background-color: rgb(205, 52, 52);
+    color: white;
+    -webkit-box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+    -moz-box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+    box-shadow: 10px 7px 16px -9px rgba(143, 130, 143, 1);
+  }
+  

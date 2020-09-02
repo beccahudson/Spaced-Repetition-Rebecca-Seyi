@@ -1,0 +1,16 @@
+.signUpHeader {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(60, 72, 198);
+}
+
+.regDescription {
+  margin-top: 20%;
+  font-size: 25px;
+}
+
+@media (min-width: 600px) {
+  .regDescription {
+    margin-top: 5%;
+  }
+}

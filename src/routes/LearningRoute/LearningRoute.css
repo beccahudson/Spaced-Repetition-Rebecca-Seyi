@@ -1,0 +1,80 @@
+.learnPage {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  background: transparent;
+  height: 100vh;
+}
+
+@media (min-width: 600px) {
+  .learnPage {
+    line-height: 50px;
+    height: 100vh;
+  }
+}
+
+.parisBackground {
+  margin-top: 0%;
+  position: sticky;
+  pointer-events: none;
+}
+
+@media (min-width: 600px) {
+  .parisBackground {
+    margin-top: -13%;
+  }
+}
+
+.parisBackgroundLearn {
+  margin-top: 50%;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+
+@media (min-width: 600px) {
+  .parisBackgroundLearn {
+    margin-top: 0%;
+  }
+}
+
+.question {
+  font-size: 22px;
+}
+
+@media (min-width: 600px) {
+  .question {
+    font-size: 28px;
+  }
+}
+
+.languageHeaderLearn {
+  font-size: 150%;
+  margin: 10px;
+}
+
+@media (min-width: 600px) {
+  .languageHeaderLearn {
+    font-size: 200%;
+    margin: 40px;
+  }
+}
+
+.guessInput {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  padding-top: 20px;
+  width: 60%;
+  border-radius: 3px;
+}
+
+@media (min-width: 600px) {
+  .guessInput {
+    width: 30%;
+  }
+}
+
+.submitAnswer {
+  margin-top: 25px;
+  width: 20%;
+}

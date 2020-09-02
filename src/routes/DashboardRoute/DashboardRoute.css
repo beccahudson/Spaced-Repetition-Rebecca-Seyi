@@ -1,0 +1,112 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: auto;
+}
+
+@media (min-width: 840px) {
+  .dashboard {
+    flex-direction: row;
+    padding-left: 40px;
+    justify-content: center;
+    align-content: left;
+    align-items: baseline;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.word-header {
+  border: 4px solid white;
+  text-align: left;
+}
+
+.left-container {
+  text-align: left;
+  height: 500%;
+  margin-left: 5%;
+  line-height: 300%;
+  justify-self: right;
+}
+@media (min-width: 600px) {
+  .left-container {
+    margin-top: 20px auto;
+    margin-left: 10%;
+    line-height: 80px;
+  }
+}
+.right-container {
+  text-align: left;
+  margin-right: 3%;
+}
+@media (min-width: 800px) {
+  .right-container {
+    text-align: left;
+    overflow: auto;
+    height: 100%;
+    overflow: auto;
+    margin: 5px auto;
+    padding: 20px;
+  }
+}
+
+.practiceWords {
+  padding: 20px;
+}
+
+.frenchWord {
+  color: rgb(60, 72, 198);
+  padding: 15px 0 15px 0;
+  font-size: 33px;
+}
+@media (min-width: 600px) {
+  .frenchWord {
+    color: rgb(60, 72, 198);
+    padding: 15px 0 15px 0;
+  }
+}
+
+.correctword {
+  color: rgb(210, 64, 64);
+  font-size: 18px;
+}
+@media (min-width: 600px) {
+  .correctWord {
+    font-size: 24px;
+  }
+}
+
+.incorrectWord {
+  color: rgb(210, 64, 64);
+  font-size: 18px;
+}
+@media (min-width: 600px) {
+  .incorrectWord {
+    font-size: 24px;
+  }
+}
+
+.startPracticeButton {
+  border-radius: 2px;
+  background-color: rgb(210, 64, 64);
+  color: white;
+  font-size: 17px;
+  padding: 8px;
+  text-decoration: none;
+  list-style-type: none;
+}
+@media (min-width: 600px) {
+  .startPracticeButton {
+    font-size: 30px;
+    padding: 10px;
+    /* margin: 20px; */
+  }
+}
+
+.startPracticeButton:hover {
+  background-color: white;
+  color: rgb(210, 64, 64);
+  border: 1px solid rgb(210, 64, 64);
+}
