@@ -1,5 +1,61 @@
 # Spaced Repetition Capstone
+A Spaced Repetition App by Seyi and Rebecca
 
+### Live Link: 
+[https://spaced-repitition-rebecca-seyi.vercel.app](https://spaced-repitition-rebecca-seyi.vercel.app)
+
+### Client Repo:
+[https://github.com/thinkful-ei-panda/Spaced-Repetition-Rebecca-Seyi](https://github.com/thinkful-ei-panda/Spaced-Repetition-Rebecca-Seyi)
+
+### Server Repo
+[https://young-caverns-95905.herokuapp.com](https://young-caverns-95905.herokuapp.com)
+
+### Tech Stack
+Front-end: React.js, CSS, media queries
+Server: PostgreSQL
+Hosting/SaaS: Heroku 
+Development Environment: Zeit Now
+Testing: Cypress, Mocha, Chai
+
+### Summary
+
+The user will have the option to log in or sign up, and then will be directed to a dashboard displaying their total correct answer, a list of French words to memorize, as well as the number of times they got each word wrong or right. 
+
+<br />
+
+![Dashboard](README-asset/PastedGraphic3.png?raw=true)
+
+The app displays a word in French and then asks the user to recall the corresponding word in English.
+<br />
+
+![LearnPageFirstView](README-asset/PastedGraphic4.png?raw=true)
+
+<br />
+
+
+If the user answers incorrectly, that word will be asked again sooner. 
+
+<br />
+
+![LearnPageIncorrectAnswerView](README-asset/PastedGraphic5.png?raw=true)
+
+If the answer is correct, the user will be asked later on.
+
+<br />
+
+![LearnPageCorrectAnswerView](README-asset/PastedGraphic6.png?raw=true)
+
+
+The user will be able to see their total count of correct guesses as well as the number of times they got each word wrong or right.
+
+
+
+
+
+<br />
+
+
+<br />
 ## Setup
 
 To setup the application
